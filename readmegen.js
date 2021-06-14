@@ -1,8 +1,9 @@
 // node modules
 const inquirer = require('inquirer')
 const fs = require('fs')
-const genMD = require()
+const generateMarkdown = require('./generateMD')
 
+// form to be filled by user
 inquirer
 .prompt([
   {
@@ -64,5 +65,10 @@ inquirer
       "the Unilicense"
     ]
   }
-
-])
+// generate file using the data provided by the form above
+]).then(function(data) {
+  console.log('Generating your README file...')
+  fs.writeFile('README.md', generateMarkdown(data), function(err, result) {
+    if(err) console.log('Error', err)
+    else console.log('Success! README.md file generated')
+})})
