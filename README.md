@@ -11,6 +11,7 @@
 
 ### Description
 README generator is a node terminal program designed to let users create an automated README file
+![screenshot](https://i.imgur.com/4ftNIEg.png)
 ![GIF](https://i.imgur.com/CObDEKA.gif)
 
 ### Installation
@@ -31,5 +32,5 @@ If you would like to contribute to this project my contact information can be fo
 To test this program simply run npm test in your terminal
 
 ### Contact-Information
-[Github Profile](https://github.com/ssss)
-[Email](andresaponte.f@gmail.com)
+* [Github Profile](https://github.com/andresaponte22)
+* [Email](andresaponte.f@gmail.com)
